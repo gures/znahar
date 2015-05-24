@@ -1,0 +1,136 @@
+body {
+     background: -moz-linear-gradient(left, white , green);
+}
+#header
+{
+    width: 70%;
+    height: 90px;
+    //background-color: #99CC33;
+    //animation-name: example;
+    //animation-duration: 4s;
+    background: -moz-linear-gradient(left, green, white);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: black 5px 5px 5px 5px;
+}
+//@keyframes example {
+  //  0%   {background-color: red;}
+    //25%  {background-color: yellow;}
+   // 50%  {background-color: blue;}
+   // 100% {background-color: green;}
+//}
+    #conteiner
+{
+    width: 70%;
+    height: 80%;
+    
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: black 5px 5px 5px 5px;
+}
+#footer
+{
+    width: 70%;
+    height: 90px;
+    //background-color: #99CC33;
+    background: -moz-linear-gradient(left, green , white);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: black 5px 5px 5px 5px;
+}
+@font-face { 
+    font-family: 'Fat';
+    src: url('Fat.ttf');
+}
+.logo_font{ 
+    font-size: 35px; 
+    font-family: Fat;
+   // font-weight: bolder;
+    //color: #fff;
+    color:  #99CC33;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px; 
+    text-shadow: 3px 3px 3px #003300;
+   
+}
+#search {
+    float: left;
+    margin-top: -70px;
+    margin-left: 10px; 
+}
+#nav {
+width: 670px; 
+margin-left: auto;
+margin-right: auto;
+background-color: #D5D5D5;
+border: 1px solid #B8B8B8;
+padding-top: 8px;
+height: 21px;
+padding-left: 200px;
+box-shadow: black 5px 5px 5px 5px;
+}
+#nav a {
+border: 1px solid #B7B7B7;
+padding: 4px;
+background-color: #F3F3F3;
+color: #99CC33;
+font-weight: bold;
+text-decoration: none;
+font-family: Verdana, Sans-Serif;
+font-size: 12px;
+}
+#nav a:hover {
+color: green;
+background-color: #ffffff;
+border: 1px solid #727272;
+border-bottom: 1px solid #ffffff;
+}
+
+.img {
+   //margin-top: 20px;
+   //margin-left: 20px;
+   //border-radius: 120px 120px 120px 120px;
+   width: 70%;
+   height: 100%;
+   opacity: 0.5;
+   float:left;
+   margin-left: 30%;
+   margin-top: -510px;
+   position: relative
+}
+div.news{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 0;
+    background-color: white;
+    position: relative
+    
+}
+div.pos_fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    background-color:  red;
+    width: 150px;
+    height: 300px;
+}
+div.pos_fixed1 {
+    position: fixed;
+    top: 30px;
+    left: 5px;
+    background-color:  red;
+    width: 150px;
+    height: 300px;
+}
+h2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
